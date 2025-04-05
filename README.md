@@ -17,9 +17,3 @@ To analyze e-commerce shipping data and build a predictive model that forecasts 
 - `src/` - Scripts for data processing and modeling.
 - `outputs/` - Results and visuals.
 
-## 📌 Task Tracking
-See [GitHub Projects](https://github.com/user/repo/projects) for task board and sprint planning.
-
-## 🔧 Setup
-```bash
-pip install -r requirements.txt
