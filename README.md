@@ -1,7 +1,7 @@
 ## 📦 E-Commerce Shipping Optimization
 
 ## 🎯 Project Goal
-To analyze e-commerce shipping data and build a predictive model that forecasts delivery times and flags high-risk deliveries. This will help reduce costs, improve logistics, and enhance customer satisfaction.
+This project focuses on identifying factors contributing to late deliveries and forecasting shipping/freight costs using predictive modeling techniques. By leveraging ~11,000 shipment records, we explore key drivers behind delivery performance and build models that support logistics optimization and operational efficiency.
 
 ## 🛠️ Workflow (CRISP-DM)
 1. Business Understanding ✔️
@@ -17,3 +17,34 @@ To analyze e-commerce shipping data and build a predictive model that forecasts 
 - `src/` - Scripts for data processing and modeling.
 - `outputs/` - Results and visuals.
 
+---
+
+## 📌 Project Overview
+
+Timely delivery is critical to customer satisfaction in e-commerce. Our objective is twofold:
+1. Predict whether a shipment will arrive on time.
+2. Estimate the cost of shipping based on product features.
+
+We perform data cleaning, exploratory analysis, feature engineering, and machine learning model development to uncover actionable insights.
+
+---
+
+## 📊 EDA Highlights
+
+
+
+All EDA notebooks can be found in: [`notebooks/EDA`](notebooks/EDA)
+
+---
+
+## 🔍 Modeling Approach
+
+We framed two main tasks:
+
+### 1. **Classification Task** – Predicting Late Delivery
+- Models: Logistic Regression, Decision Tree, XGBoost
+- Evaluation: Accuracy, Precision, Recall, F1-score
+
+### 2. **Regression Task** – Predicting Cost per Gram
+- Models: Linear Regression, XGBoost Regressor
+- Evaluation: MAE, RMSE, R²
