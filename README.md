@@ -9,7 +9,7 @@ This project focuses on identifying factors contributing to late deliveries and 
 3. Data Preparation 🔄
 4. Modeling
 5. Evaluation
-6. Deployment (optional)
+6. Deployment
 
 ## 🗂️ Project Structure
 - `data/` - Contains raw and cleaned data.
