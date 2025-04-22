@@ -39,12 +39,7 @@ All EDA notebooks can be found in: [`notebooks/EDA`](notebooks/EDA)
 
 ## 🔍 Modeling Approach
 
-We framed two main tasks:
-
 ### 1. **Classification Task** – Predicting Late Delivery
 - Models: Logistic Regression, Decision Tree, XGBoost
 - Evaluation: Accuracy, Precision, Recall, F1-score
 
-### 2. **Regression Task** – Predicting Cost per Gram
-- Models: Linear Regression, XGBoost Regressor
-- Evaluation: MAE, RMSE, R²
