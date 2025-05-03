@@ -14,8 +14,7 @@ This project focuses on identifying factors contributing to late deliveries and 
 ## 🗂️ Project Structure
 - `data/` - Contains raw and cleaned data.
 - `notebooks/` - Exploratory and modeling notebooks.
-- `src/` - Scripts for data processing and modeling.
-- `outputs/` - Results and visuals.
+- `src/` - Scripts for data processing, modeling, and results
 
 ---
 
@@ -40,5 +39,5 @@ All EDA notebooks can be found in: [`notebooks/EDA`](notebooks/EDA)
 
 ### 1. **Classification Task** – Predicting Late Delivery
 - Models: Logistic Regression, Random Forest, XGBoostclassifier
-- Evaluation: Accuracy, Precision, Recall, F1-score, ROC Curve
+- Evaluation: Accuracy, Precision, Recall, F1-score, ROC-AUC Curve
 
