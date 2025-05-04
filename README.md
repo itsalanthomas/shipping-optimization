@@ -54,11 +54,11 @@ Development Environment: Jupyter Notebook, Google Colab
 📈 Results
 Model Performance: The best model achieved an accuracy of 66% post tuning in predicting on-time deliveries (Random Forest & XGBoost)
 - Evaluation:
-  Accuracy: 67%
-  Precision: 0.76
-  Recall: 0.67
-  F1-score: 0.70
-  ROC-AUC Curve: 74%
+  - Accuracy: 67%
+  - Precision: 0.76
+  - Recall: 0.67
+  - F1-score: 0.70
+  - ROC-AUC Curve: 74%
 
 
 💡 Key Insights :
