@@ -39,8 +39,6 @@ All EDA notebooks can be found in: [`notebooks/EDA`](notebooks/EDA)
 
 ### 1. **Classification Task** – Predicting Late Delivery
 - Models: Logistic Regression, Random Forest, XGBoostclassifier
-- Evaluation: Accuracy, Precision, Recall, F1-score, ROC-AUC Curve
-
 
  🛠️ Technologies Used
 Programming Language: Python
@@ -54,7 +52,14 @@ Visualizations: Matplotlib, Seaborn
 Development Environment: Jupyter Notebook, Google Colab
 
 📈 Results
-Model Performance: The best model achieved an accuracy of 66% post tuning in predicting on-time deliveries.
+Model Performance: The best model achieved an accuracy of 66% post tuning in predicting on-time deliveries (Random Forest & XGBoost)
+- Evaluation:
+        Accuracy: 67%
+        Precision: 0.76
+        Recall: 0.67
+        F1-score: 0.70
+        ROC-AUC Curve: 74$
+
 
 💡 Key Insights :
 Discount Offered and derived Discount Ratio has a significant impact/correlation on delivery times ✅
